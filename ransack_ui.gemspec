@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'ransack_chronic', github: 'ndbroadbent/ransack_chronic', branch: 'master'
+  gem.add_dependency 'ransack_chronic'
   gem.add_dependency 'ransack', '~> 4'
 end
